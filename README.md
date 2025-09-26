@@ -4,7 +4,6 @@
       cd build
       env LD_LIBRARY_PATH=/usr/lib/x86_64-linux-gnu ./servidor_cpp
     
-    
     Terminal 2 (cliente c++)
       cd build
       env LD_LIBRARY_PATH=/usr/lib/x86_64-linux-gnu ./cliente_cpp
