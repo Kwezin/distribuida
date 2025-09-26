@@ -1,3 +1,16 @@
+Instalar dependencias:
+
+    // Rodar todo esse bloco junto:
+    sudo apt update
+    sudo apt install -y build-essential autoconf libtool pkg-config cmake \
+      libgflags-dev libgtest-dev clang libc++-dev libprotobuf-dev protobuf-compiler \
+      libgrpc-dev libgrpc++-dev protobuf-compiler-grpc
+
+    // Rodar todo esse bloco junto
+    python3 -m pip install --upgrade pip
+    python3 -m pip install grpcio grpcio-tools
+
+
 1 - Cenario C++ servidor e C++ cliente
 
     Terminal 1 (servidor c++)
